@@ -6,21 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a253e5-8428-4f20-8b69-9f0462dca257" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServletDeleteUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServletSaveById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServletUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServletViewUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servletSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servletSave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/userDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servletCrud/WEB-INF/classes/userDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servletCrud/WEB-INF/classes/userDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servletCrud/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/servletCrud/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servletCrud/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/servletCrud/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="e8a253e5-8428-4f20-8b69-9f0462dca257" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/userDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2626#2632#0" expanded="true" />
@@ -201,11 +187,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servletSave.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="300">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -297,7 +283,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="293" />
     <option name="y" value="47" />
     <option name="width" value="1370" />
@@ -510,7 +496,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538150112329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538150249876" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -657,7 +643,7 @@
       <option name="presentableId" value="Default" />
       <updated>1537964090997</updated>
       <workItem from="1537964097418" duration="12827000" />
-      <workItem from="1538126835424" duration="17708000" />
+      <workItem from="1538126835424" duration="18351000" />
     </task>
     <servers />
   </component>
@@ -694,7 +680,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30535000" />
+    <option name="totallyTimeSpent" value="31178000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -706,10 +692,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="951" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="951" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954628" visible="true" weight="0.18594356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954628" visible="true" weight="0.18594356" />
       <window_info id="Structure" order="1" sideWeight="0.5045372" side_tool="true" weight="0.18594356" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -719,7 +705,7 @@
       <window_info id="Web" order="7" sideWeight="0.5045372" side_tool="true" visible="true" weight="0.18594356" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928312" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32886723" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32886723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995128" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -860,17 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/userDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2626#2632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ServletViewUsers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -921,8 +896,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servletSave.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        <state relative-caret-position="300">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/userDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2626#2632#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
