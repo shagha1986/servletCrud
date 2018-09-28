@@ -19,6 +19,6 @@
 </form>
 
 <br/>
-<a href="ViewServlet">view Users</a>
+<a href="/ServletViewUsers">view Users</a>
 </body>
 </html>

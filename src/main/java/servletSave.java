@@ -27,8 +27,7 @@ public class servletSave extends HttpServlet {
             e.printStackTrace();
         }
         if (status > 0) {
-            out.println("congradulations! user saved ");
-            req.getRequestDispatcher("index.html").include(req, res);
+           res.sendRedirect("/ServletViewUsers");
         } else {
             out.println("user is not saved ! ");
         }

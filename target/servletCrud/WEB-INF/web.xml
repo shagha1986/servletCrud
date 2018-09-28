@@ -13,4 +13,38 @@
     <servlet-name>servletSave</servlet-name>
     <url-pattern>/servletSave</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>ServletViewUsers</servlet-name>
+    <servlet-class>ServletViewUsers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletViewUsers</servlet-name>
+    <url-pattern>/ServletViewUsers</url-pattern>
+  </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletUpdate</servlet-name>
+        <servlet-class>ServletUpdate</servlet-class>
+        
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletUpdate</servlet-name>
+        <url-pattern>/ServletUpdate</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletSaveById</servlet-name>
+        <servlet-class>ServletSaveById</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSaveById</servlet-name>
+        <url-pattern>/ServletSaveById</url-pattern>
+    </servlet-mapping>
+  <servlet>
+      <servlet-name>ServletDeleteUser</servlet-name>
+      <servlet-class>ServletDeleteUser</servlet-class>
+  </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDeleteUser</servlet-name>
+        <url-pattern>/ServletDeleteUser</url-pattern>
+    </servlet-mapping>
+
 </web-app>
