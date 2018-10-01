@@ -5,7 +5,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.SQLException;
 import java.util.List;
 
 @WebServlet(name = "ServletViewUsers")
@@ -17,6 +16,7 @@ public class ServletViewUsers extends HttpServlet {
         List<User> userList = null;
 
             userList = userDao.getAllUsers();
+            req.getSession().setAttribute("List",userList);
 
         out.print("<table border='1' width = '80%'>");
         out.print("<tr><th>Id</th><th>Name</th><th>Email</th><th>Country</th>" + "<th>Edit</th><th>Delete</th></tr>");
@@ -24,7 +24,7 @@ public class ServletViewUsers extends HttpServlet {
             out.print("<tr><td>"+user.getId()+"</td><td>"+user.getName()+"</td><td>"+user.getEmail()+"</td><td>"+user.getCountry()+"</td><td><a href='/ServletUpdate?id="+user.getId()+"'>Edit</a></td><td><a href='ServletDeleteUser?id="+user.getId()+"'>Delete</a></td></tr>");
         }
         out.print("</table>");
-
+        out.println("<a href='/ServletPdf'>save the list</a>");
         out.close();
 
     }
