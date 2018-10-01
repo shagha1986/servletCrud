@@ -46,5 +46,13 @@
         <servlet-name>ServletDeleteUser</servlet-name>
         <url-pattern>/ServletDeleteUser</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletPdf</servlet-name>
+        <servlet-class>ServletPdf</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPdf</servlet-name>
+        <url-pattern>/ServletPdf</url-pattern>
+    </servlet-mapping>
 
 </web-app>
